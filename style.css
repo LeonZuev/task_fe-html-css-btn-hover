@@ -5,33 +5,31 @@ background-color: #5a5959;
 
 #login {
     background-color: #778D45;
-    color:rgb(230, 230, 125);
-    border: none;
-    padding: 60px;
-    font-size: 50px;
-    border-radius: 10px;
-    /* нужно ли выравнивать текст по центру, если он и так по центру? */
-    text-align: center; 
-    cursor: pointer;
-    margin: 30px 50px;
 }
 
 #login:hover {
     color: rgb(51, 47, 47);
 }
 
-#registration {
+a {
     background-color: #AEC09A;
-    color:rgb(230, 230, 125);
-    border: none;
-    padding: 60px;
-    font-size: 50px;
-    border-radius: 10px;
-    cursor: pointer;
-    /* не понял, как взаимодействуют маргиналы */
-    margin: 30px 50px;
 }
 
 #registration:hover {
     color: rgb(51, 47, 47);
 }
+
+.btn {
+    border-radius: 10px;
+    color:rgb(230, 230, 125);
+    border: none;
+    padding: 60px;
+    font-size: 50px;
+    margin: 30px 50px;
+    cursor: pointer;
+}
+
+.blue:hover {
+    cursor: pointer;
+}
+
